@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background: linear-gradient(-45deg, #6aab9c, #fa9284, #e06c78, #5874dc, #384e78);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.linear-wipe {
+  
+  background: linear-gradient(to right, #000000 20%, #ffffff 40%, #ffffff 60%, #000000 80%);
+  background-size: 500% auto;
+  
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: gradient 15s ease infinite;
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+  }
+}
+
+
+.developer {
+	width: 20%;
+}
+
+.flex {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  padding: 2%;
+}
+
+.work {
+  display: flex;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icons i {
+  padding-right: 10px;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .flex {
+	display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: center;
+	padding: 0%;
+	width: 100vw;
+    height: 100vh;
+  }
+  
+  .icons {
+    justify-content: center;
+	font-size: 10px;
+  }
+  
+  body {
+	font-size:10px;
+	background: linear-gradient(90deg, #6aab9c, #fa9284, #e06c78, #5874dc, #384e78);
+	background-size: 200% 200%;
+	color: white;
+  }
+	
+}
+  
+
+
+span {
+    margin-right: 40px;
+}

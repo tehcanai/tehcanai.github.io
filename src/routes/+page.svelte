@@ -1,7 +1,6 @@
 
 <script>
     import {Navbar, NavBrand, NavHamburger, NavUl, NavLi, Card} from 'flowbite-svelte';
-   
 </script>
 
 <svelte:head>

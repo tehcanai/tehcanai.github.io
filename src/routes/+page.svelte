@@ -38,35 +38,27 @@
           </div>
     </div>
     <div class=" bg-white p-10 lg:px-52 space-y-5" id="profile">
-        <h1 class="text-center font-sans font-bold text-gray-900 text-2xl py-5">Technologies I know</h1>
-        <div class="flex-col space-y-10">
-        <div class="flex space-x-5 justify-center">
-           <img src="assets/dart.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
-           <img src="assets/python.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
-           <img src="assets/js.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
-           <img src="assets/php.png" class="w-14 h-10 lg:w-32 lg:h-24" alt=""/>
-           <img src="assets/kotlin.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
+        <div class="flex-row space-y-10">
+          <div class="flex space-x-5 justify-center">
+            <img src="assets/dart.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
+            <img src="assets/python.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
+            <img src="assets/js.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
+            <img src="assets/php.png" class="w-14 h-10 lg:w-32 lg:h-24" alt=""/>
+            <img src="assets/kotlin.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
+          </div>
+          <div class="flex space-x-5  justify-center">
+            <!-- svelte-ignore a11y-missing-attribute -->
+            <img src="assets/flutter.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
+            <img src="assets/react.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
+            
+            <img src="assets/laravel.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
+            <img src="assets/svelte.png" class="w-15 h-10 lg:w-24 lg:h-28" alt=""/>
         </div>
-        <div class="flex space-x-5  justify-center">
-          <!-- svelte-ignore a11y-missing-attribute -->
-          <img src="assets/flutter.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
-          <img src="assets/react.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
-          <img src="assets/nodejs.png" class="w-16 h-10 lg:w-36 lg:h-24" alt=""/>
-          <img src="assets/laravel.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
-          <img src="assets/svelte.png" class="w-15 h-10 lg:w-24 lg:h-28" alt=""/>
-       </div>
-       <div class="flex space-x-5 justify-center">
-        <!-- svelte-ignore a11y-missing-attribute -->
-        <img src="assets/mysql.png" class="w-20 h-10 lg:w-36 lg:h-24" alt=""/>
-        <img src="assets/pgsql.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
-        <img src="assets/docker.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
-        <img src="assets/firebase.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
-        <img src="assets/tf.png" class="w-10 h-15 lg:w-24 lg:h-28" alt=""/>
+        
      </div>
     </div>
-    </div>
     <div id="projects" class=" bg-slate-100 p-10 lg:px-36 space-y-5">
-      <h1 class="text-center font-sans text-gray-900 text-2xl font-bold">Some recent projects</h1>
+      <h1 class="text-center font-sans text-gray-900 text-2xl font-bold">Projects & Work</h1>
 
       <div class="lg:flex justify-center lg:space-x-10 space-y-8 lg:space-y-0">
       <Card href="https://github.com/tehcanai/SoalUndi" img="assets/undi.png" >

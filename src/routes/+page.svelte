@@ -9,17 +9,17 @@
 </svelte:head>
 
 <div class="relative">
-<Navbar navClass="px-2 sm:px-4 py-2.5 fixed  w-full z-20 top-0 left-0 border-b" color='dark' let:hidden let:toggle>
+<Navbar fluid="true" navClass="px-2 sm:px-4 py-2.5 fixed  bg-white opacity-80 w-full z-20 top-0 left-0 border-b" color='dark' let:hidden let:toggle>
     <NavBrand href="/">
       <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
         Zakuan
       </span>
     </NavBrand>
-    <NavHamburger on:click={toggle} />
+    <NavHamburger on:click={toggle}/>
     <NavUl {hidden} activeClass="text-red">
-      <NavLi href="#about">About me</NavLi>
-      <NavLi href="#projects">Projects</NavLi>
-      <NavLi href="#contact">Contact</NavLi>
+      <NavLi href="#about" class="font-medium">About me</NavLi>
+      <NavLi href="#projects" class="font-medium">Projects</NavLi>
+      <NavLi href="#contact" class="font-medium">Contact</NavLi>
     </NavUl>
   </Navbar>
   
@@ -61,7 +61,7 @@
       <h1 class="text-center font-sans text-gray-900 text-2xl font-bold">Projects & Work</h1>
 
       <div class="lg:flex justify-center lg:space-x-10 space-y-8 lg:space-y-0">
-      <Card href="https://github.com/tehcanai/SoalUndi" img="assets/undi.png" >
+      <Card href="https://github.com/tehcanai/SoalUndi" img="assets/undi.png">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SoalUndi</h5>
         <p class="font-bold text-gray-800 dark:text-gray-800 leading-normal text-left py-2">
          Python · Tensorflow · Postgresql · Grafana

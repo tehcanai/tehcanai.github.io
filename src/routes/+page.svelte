@@ -49,7 +49,6 @@
             <img src="assets/python.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
             <img src="assets/js.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
             <img src="assets/php.png" class="w-14 h-10 lg:w-32 lg:h-24" alt=""/>
-            <img src="assets/kotlin.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
           </div>
           <div class="flex space-x-5  justify-center">
             <!-- svelte-ignore a11y-missing-attribute -->

@@ -23,7 +23,7 @@
       <NavLi href="#projects" class="font-medium dark:text-white">Projects</NavLi>
       <NavLi href="#contact" class="font-medium dark:text-white">Contact</NavLi>
     </NavUl>
-    <div class="rounded-lg w-auto h-auto bg-slate-100 dark:bg-slate-700">
+    <div class="rounded-lg w-auto h-auto bg-slate-100 dark:bg-slate-600">
       <DarkMode class="text-sm hover:bg-transparent"/>
     </div>
   </Navbar>
@@ -36,8 +36,8 @@
     <div class=" bg-slate-100 dark:bg-gray-800 p-20 lg:px-36 space-y-5 lg:flex max-sm:px-8">
       <img src="assets/profile-pic.jpeg" alt="" class="lg:w-80 lg:h-h-80"/>
       <div>
-        <h1 class="text-center lg:text-left font-sans text-gray-900 text-2xl font-bold py-5 lg:px-20">A bit about me!</h1>
-        <p class="lg:leading-relaxed  lg:text-2xl lg:px-20 font-sans text-gray-800 text-justify">Hello, I'm Arif Zakuan. I'm currently a final year student majoring in computer science
+        <h1 class="text-center lg:text-left font-sans text-gray-900 text-2xl font-bold py-5 lg:px-20 dark:text-white">A bit about me!</h1>
+        <p class="lg:leading-relaxed  lg:text-2xl lg:px-20 font-sans text-gray-800 text-justify dark:text-slate-100">Hello, I'm Arif Zakuan. I'm currently a final year student majoring in computer science
             at Universiti Putra Malaysia. Throughout most of my education, I've developed a variety of projects for my coursework. Among them, mobile apps, cryptographic algorithms, APIs, and chatbots. I'm an enthusiast for new technologies and love learning about them to build amazing software systems and applications. 
             I'm also currently interested in finding new opportunities to shape my career. 👉 <a href="cv-zakuan.pdf">cv</a></p>
           </div>
@@ -62,23 +62,23 @@
         
      </div>
     </div>
-    <div id="projects" class=" bg-slate-100 p-10 lg:px-36 space-y-5">
-      <h1 class="text-center font-sans text-gray-900 text-2xl font-bold">Projects & Work</h1>
+    <div id="projects" class=" bg-slate-100 p-10 lg:px-36 space-y-5 dark:bg-gray-800">
+      <h1 class="text-center font-sans text-gray-900 text-2xl font-bold dark:text-white">Projects & Work</h1>
 
       <div class="lg:flex justify-center lg:space-x-10 space-y-8 lg:space-y-0">
       <Card href="https://github.com/tehcanai/SoalUndi" img="assets/undi.png">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SoalUndi</h5>
-        <p class="font-bold text-gray-800 dark:text-gray-800 leading-normal text-left py-2">
+        <p class="font-bold text-gray-800 leading-normal text-left py-2 dark:text-slate-100 ">
          Python · Tensorflow · Postgresql · Grafana
-        <p class="font-normal text-gray-700 dark:text-gray-700 leading-normal text-left ">
+        <p class="ffont-normal text-gray-700 leading-normal text-left dark:text-slate-200 ">
           SoalUndi is a telegram chatbot that is able to answer questions about the Malaysian election. It was developed for my bachelor's thesis project. Features implemented include text classification, question answering, and performance monitoring.
         </p>
       </Card>
       <Card href="https://github.com/tehcanai/SimpleLogin-App" img="assets/login.png" >
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SimpleLogin</h5>
-        <p class="font-bold text-gray-800 leading-normal text-left py-2 dark:text-white ">
+        <p class="font-bold text-gray-800 leading-normal text-left py-2 dark:text-slate-100 ">
          Flutter · Laravel · Postgresql
-        <p class="font-normal text-gray-700 leading-normal text-left dark:text-white  ">
+        <p class="font-normal text-gray-700 leading-normal text-left dark:text-slate-200 ">
           SimpleLogin is a simple login app that uses Laravel as the backend. The app allows users to register and authenticates users via Passport when logging in.
         </p>
       </Card>

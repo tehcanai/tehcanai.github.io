@@ -28,21 +28,21 @@
     </div>
   </Navbar>
   
-<div class="py-32 text-gray-900 ">
-<h1 class="lg:text-5xl text-3xl text-center font-sans py-5">Arif Zakuan</h1>
-<p class="text-2xl text-center font-sans px-10"> I'm an aspiring software developer building stuff for mobile and the web</p>
+<div class="py-32 text-gray-900 dark:bg-gray-700">
+<h1 class="lg:text-5xl text-3xl text-center font-sans py-5 dark:text-white">Arif Zakuan</h1>
+<p class="text-2xl text-center font-sans px-10 dark:text-slate-200"> I'm an aspiring software developer building stuff for mobile and the web</p>
 </div>
 <div class="" id="about">
     <div class=" bg-slate-100 dark:bg-gray-800 p-20 lg:px-36 space-y-5 lg:flex max-sm:px-8">
       <img src="assets/profile-pic.jpeg" alt="" class="lg:w-80 lg:h-h-80"/>
       <div>
         <h1 class="text-center lg:text-left font-sans text-gray-900 text-2xl font-bold py-5 lg:px-20 dark:text-white">A bit about me!</h1>
-        <p class="lg:leading-relaxed  lg:text-2xl lg:px-20 font-sans text-gray-800 text-justify dark:text-slate-100">Hello, I'm Arif Zakuan. I'm currently a final year student majoring in computer science
+        <p class="lg:leading-relaxed  lg:text-2xl lg:px-20 font-sans text-gray-800 text-justify dark:text-slate-200">Hello, I'm Arif Zakuan. I'm currently a final year student majoring in computer science
             at Universiti Putra Malaysia. Throughout most of my education, I've developed a variety of projects for my coursework. Among them, mobile apps, cryptographic algorithms, APIs, and chatbots. I'm an enthusiast for new technologies and love learning about them to build amazing software systems and applications. 
             I'm also currently interested in finding new opportunities to shape my career. 👉 <a href="cv-zakuan.pdf">cv</a></p>
           </div>
     </div>
-    <div class=" bg-white p-10 lg:px-52 space-y-5" id="profile">
+    <div class=" bg-white p-10 lg:px-52 space-y-5 dark:bg-gray-700" id="profile">
         <div class="flex-row space-y-10">
           <div class="flex space-x-5 justify-center">
             <img src="assets/dart.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
@@ -84,16 +84,16 @@
       </Card>
     </div>
   </div>
-  <div id="contact" class="bg-white text-center px-10">
-    <div class="font-sans text-gray-900 font-bold lg:text-2xl py-5">
+  <div id="contact" class="bg-white text-center px-10 dark:bg-gray-700">
+    <div class="font-sans text-gray-900 font-bold lg:text-2xl py-5 dark:text-slate-100">
       <span >reach me here: <a class="hover:text-red-500" href = "mailto:arif.zakuan@gmail.com">arif.zakuan@gmail.com</a> or via my socials below:</span>
     </div>
-    <div class="font-sans text-gray-900 font-bold lg:text-2xl py-5 space-x-5">
+    <div class="font-sans text-gray-900 font-bold lg:text-2xl py-5 space-x-5 dark:text-slate-100">
     <span><a  class="hover:text-red-500" href="https://www.linkedin.com/in/arif-zakuan-99460820b/">Linkedin</a></span>
     <span ><a class="hover:text-red-500" href="https://www.instagram.com/ar.ifzk/">Instagram</a></span>
     <span ><a class="hover:text-red-500" href="https://github.com/tehcanai">Github</a></span>
   </div>
-  <p class="lg:text-right font-thin text-sm text-gray-500 py-2">© 2023 Arif Zakuan. Built with svelte and tailwind</p>
+  <p class="lg:text-right font-thin text-sm text-gray-500 py-2 dark:text-slate-300">© 2023 Arif Zakuan. Built with svelte and tailwind</p>
   </div>
 </div>
 </div>

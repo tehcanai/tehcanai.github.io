@@ -1,6 +1,6 @@
 
 <script>
-    import {Navbar, NavBrand, NavHamburger, NavUl, NavLi, Card} from 'flowbite-svelte';
+    import {Navbar, NavBrand, NavHamburger, NavUl, NavLi, Card, DarkMode} from 'flowbite-svelte';
 </script>
 
 <svelte:head>
@@ -16,11 +16,12 @@
       </span>
     </NavBrand>
     <NavHamburger on:click={toggle}/>
-    <NavUl {hidden} activeClass="text-red">
+    <NavUl {hidden} activeClass="text-red" class="content-center">
       <NavLi href="#about" class="font-medium">About me</NavLi>
       <NavLi href="#projects" class="font-medium">Projects</NavLi>
       <NavLi href="#contact" class="font-medium">Contact</NavLi>
     </NavUl>
+    <DarkMode class="text-sm"/> 
   </Navbar>
   
 <div class="py-32 text-gray-900">

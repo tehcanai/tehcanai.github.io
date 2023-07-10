@@ -33,7 +33,7 @@
 <p class="text-2xl text-center font-sans px-10 dark:text-slate-200"> I'm an aspiring software developer building stuff for mobile and the web</p>
 </div>
 <div class="" id="about">
-    <div class=" bg-slate-100 p-20 lg:px-36 space-y-5 lg:flex max-sm:px-8 dark:bg-gray-700 ">
+    <div class=" bg-slate-100 p-20 lg:px-36 space-y-5 lg:flex max-sm:px-8 dark:bg-gray-900 ">
       <img src="assets/profile-pic.jpeg" alt="" class="lg:w-80 lg:h-h-80"/>
       <div>
         <h1 class="text-center lg:text-left font-sans text-gray-900 text-2xl font-bold py-5 lg:px-20 dark:text-white">A bit about me!</h1>
@@ -62,7 +62,7 @@
         
      </div>
     </div>
-    <div id="projects" class=" bg-slate-100 p-10 lg:px-36 space-y-5 dark:bg-gray-700">
+    <div id="projects" class=" bg-slate-100 p-10 lg:px-36 space-y-5 dark:bg-gray-900">
       <h1 class="text-center font-sans text-gray-900 text-2xl font-bold dark:text-white">Projects & Work</h1>
 
       <div class="lg:flex justify-center lg:space-x-10 space-y-8 lg:space-y-0">

@@ -28,12 +28,12 @@
     </div>
   </Navbar>
   
-<div class="py-32 text-gray-900 dark:bg-neutral-800">
+<div class="py-32 text-gray-900 dark:bg-gray-800">
 <h1 class="lg:text-5xl text-3xl text-center font-sans py-5 dark:text-white">Arif Zakuan</h1>
 <p class="text-2xl text-center font-sans px-10 dark:text-slate-200"> I'm an aspiring software developer building stuff for mobile and the web</p>
 </div>
 <div class="" id="about">
-    <div class=" bg-slate-100 p-20 lg:px-36 space-y-5 lg:flex max-sm:px-8 dark:bg-neutral-900 ">
+    <div class=" bg-slate-100 p-20 lg:px-36 space-y-5 lg:flex max-sm:px-8 dark:bg-gray-900 ">
       <img src="assets/profile-pic.jpeg" alt="" class="lg:w-80 lg:h-h-80"/>
       <div>
         <h1 class="text-center lg:text-left font-sans text-gray-900 text-2xl font-bold py-5 lg:px-20 dark:text-white">A bit about me!</h1>
@@ -42,7 +42,7 @@
             I'm also currently interested in finding new opportunities to shape my career. 👉 <a href="cv-zakuan.pdf">cv</a></p>
           </div>
     </div>
-    <div class=" bg-white p-10 lg:px-52 space-y-5 dark:bg-neutral-800" id="profile">
+    <div class=" bg-white p-10 lg:px-52 space-y-5 dark:bg-gray-800" id="profile">
         <div class="flex-row space-y-10">
           <div class="flex space-x-5 justify-center">
             <img src="assets/dart.png" class="w-10 h-10 lg:w-24 lg:h-24" alt=""/>
@@ -62,7 +62,7 @@
         
      </div>
     </div>
-    <div id="projects" class=" bg-slate-100 p-10 lg:px-36 space-y-5 dark:bg-neutral-900">
+    <div id="projects" class=" bg-slate-100 p-10 lg:px-36 space-y-5 dark:bg-gray-900">
       <h1 class="text-center font-sans text-gray-900 text-2xl font-bold dark:text-white">Projects & Work</h1>
 
       <div class="lg:flex justify-center lg:space-x-10 space-y-8 lg:space-y-0">
@@ -84,7 +84,7 @@
       </Card>
     </div>
   </div>
-  <div id="contact" class="bg-white text-center px-10 dark:bg-neutral-800">
+  <div id="contact" class="bg-white text-center px-10 dark:bg-gray-800">
     <div class="font-sans text-gray-900 font-bold lg:text-2xl py-5 dark:text-slate-100">
       <span >reach me here: <a class="hover:text-red-500" href = "mailto:arif.zakuan@gmail.com">arif.zakuan@gmail.com</a> or via my socials below:</span>
     </div>
